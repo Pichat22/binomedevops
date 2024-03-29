@@ -13,6 +13,6 @@ jobs:
       name: Checkout code
     
     - name: List directory
-      run:
+      run: |
         ls -la
       
