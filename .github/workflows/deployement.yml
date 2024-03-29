@@ -9,8 +9,9 @@ jobs:
   deployement: # nom que l'on donne au job
     runs-on: ubuntu-lastest # instances 
     steps:
-    - uses: actions/checkout@v4
-      name: Checkout code
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
     
     - name: List directory
       run: |
