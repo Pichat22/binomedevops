@@ -9,6 +9,6 @@ jobs:
   deployement: # nom que l'on donne au job
     runs-on: ubuntu-lastest # instances 
     steps:
-      - run: actions/checkout@v4
-       name: Checkout code
+    - run: actions/checkout@v4
+      name: Checkout code
       
