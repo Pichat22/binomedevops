@@ -15,4 +15,8 @@ jobs:
     steps:
     - name: checkout code
       uses: actions/checkout@v4
+      
+    - name: List directory
+      run: 
+       ls -la
  
