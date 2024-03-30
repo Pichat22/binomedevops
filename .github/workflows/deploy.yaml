@@ -38,6 +38,6 @@ jobs:
           exit 1
         fi
       env:
-        AWS_BUCKET_NAME: ${{secrets.AWS_BUCKET_NAME}} 
+        AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }} 
 
  
