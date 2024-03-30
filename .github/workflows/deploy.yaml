@@ -16,11 +16,15 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v4
 
-    - name: List directory
+    - name: Lister les fichiers et dossiers
       run: |
        ls -la
 
-    - name: List directory
+    - name: Creer un nouveau fichier
+      run: |
+       touch newfie.txt
+
+    - name: Lister a nouveau les fichiers et dossiers
       run: |
        touch newfie.txt
  
