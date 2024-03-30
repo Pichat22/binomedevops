@@ -1,4 +1,4 @@
-name: "Deployement git hub"
+name: " CI Deployement git hub"
 # on: [push] # toutes les branches
 on: 
   push:
@@ -15,10 +15,3 @@ jobs:
       run: |
         ls -la
       
-    - name: Create new file
-      run: |
-        touch newfile.txt
-    
-    - name: List directory of all file
-      run: |
-        ls -la
